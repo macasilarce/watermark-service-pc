@@ -1,0 +1,16 @@
+{
+  "name": "watermark-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node ./dist/src/index.js"
+  },
+  "dependencies": {
+    "@types/node": "^20.8.7",
+    "pdf-lib": "^1.17.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {}
+}
